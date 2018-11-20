@@ -1,8 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import './ListItems.js'
-class App extends React.Component {
+import React, { Component } from 'react';
+import PropTypes from 'prop-types'
+
+class ListItems extends Component {
+  
   state = {
     value: '',
     items: [],
